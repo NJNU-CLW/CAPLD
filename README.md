@@ -99,8 +99,8 @@ The CAPLD integrates data from several openly available sources. Each external r
 ## Usage
 
 1. **Download external datasets**:
-   Please download the Poetry corpus from the link above and place them in the 'source/corpus/raw_corpus'folder;
-   Please download the strokes data (全部汉字码表.TXT), gloss data (Unihan_readings.txt), Pingshuiyun data, and Guangyun data(guangyun_new.tsv) from the links above, and place them in the `source/` folder.
+   Please download the Poetry corpus from the link above and place them in the 'source/corpus/raw_corpus/'folder;
+   download the strokes data (全部汉字码表.TXT), gloss data (Unihan_readings.txt), Pingshuiyun data, and Guangyun data(guangyun_new.tsv) from the links above, and place them in the `source/` folder.
 
 3. **Install dependencies**:
     ```bash

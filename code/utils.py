@@ -18,12 +18,12 @@ def load_char_def(cache_path=_UNIHAN_DICT_PATH):
     # Character Translation (Chinese–English mapping)
     # =============================================================================
     # Source: Unihan.zip from Unicode Character Database (UCD)
-    # Official URL: https://www.unicode.org/Public/UCD/latest/Unihan.zip
+    # Official URL: https://www.unicode.org/Public/UCD/latest/ucd/
     # License: Unicode License (permissive, allows redistribution with attribution)
     #
     # Note for users:
     # 1. Download the Unihan.zip file manually from the official Unicode website.
-    # 2. Extract the archive, which contains multiple tab-delimited text files (Unihan_Readings.txt).
+    # 2. Extract the archive, which contains the text files Unihan_Readings.txt.
     # 3. Place the extracted file under `source/`.
     # 4. This script uses these files as a Chinese-to-English dictionary for
     #    the "Gloss" column.

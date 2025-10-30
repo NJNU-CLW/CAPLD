@@ -140,7 +140,7 @@ The CAPLD integrates data from several openly available sources. Each external r
 
 If you use CAPLD in your research, please cite:
 
-Wei, T., Li, J.,Tse, C.,Meng, H.,Chen, Q. (2025). A Lexical Database and its Diachronic Sub-database of Chinese Ancient Poetry from 207 BC to 1911 AD. Scientific Data.
+Wei, T., Li, J.,Tse, C.,Yao, M.,Chen, Q. (2025). A Lexical Database and its Diachronic Sub-database of Chinese Ancient Poetry from 207 BC to 1911 AD. Scientific Data.
 
 ## License
 

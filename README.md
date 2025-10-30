@@ -90,11 +90,11 @@ The CAPLD integrates data from several openly available sources. Each external r
   - Source: https://github.com/Werneror/Poetry
   - → deposited at Zenodo (DOI:  https://doi.org/10.5281/zenodo.17461105).
 - Chinese strokes data: Chinese-characters-code-table (BSD 2-Clause License).
-  - Source: https://github.com/yefeijiang/Chinese-characters-code-table/blob/main/%E5%85%A8%E9%83%A8%E6%B1%89%E5%AD%97%E7%A0%81%E8%A1%A8.TXT
+    - Source: https://github.com/yefeijiang/Chinese-characters-code-table/blob/main/全部汉字码表.TXT
   - → deposited at Zenodo (DOI: https://doi.org/10.5281/zenodo.17461514).
 - Pingshuiyun (平水韵) (PSY_Rhyme, Tone): https://zh.wikisource.org/wiki/平水韵 (public domain).
 - Guangyun (广韵) data (GY_Rhyme, GY_Tone, GY_ID): guangyun_new.tsv, Zenodo DOI: 10.5281/zenodo.10828130.
-- Unihan database (gloss): Unicode Consortium. https://www.unicode.org/ucd/latest/Unihan.zip
+- Unihan database (gloss): Unicode Consortium. https://www.unicode.org/ucd/latest/ucd
 
 ## Usage
 

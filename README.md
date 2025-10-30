@@ -99,39 +99,40 @@ The CAPLD integrates data from several openly available sources. Each external r
 ## Usage
 
 1. **Download external datasets**:
-   Please download the Poetry corpus, strokes data (全部汉字码表.TXT), gloss data (Unihan_readings.txt), Pingshuiyun data, and Guangyun data(guangyun_new.tsv) from the links above, and place them in the `source/` folder.
+   Please download the Poetry corpus from the link above and place them in the 'source/corpus/raw_corpus'folder;
+   Please download the strokes data (全部汉字码表.TXT), gloss data (Unihan_readings.txt), Pingshuiyun data, and Guangyun data(guangyun_new.tsv) from the links above, and place them in the `source/` folder.
 
-2. **Install dependencies**:
+3. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Regenerate CAPLD.csv**:
+4. **Regenerate CAPLD.csv**:
     ```bash
     python code/capld_data_builder.py
     ```
 
-4. **Rebuild diachronic data**:
+5. **Rebuild diachronic data**:
     ```bash
     python code/diachronic_data_builder.py
     ```
 
-5. **Rebuild time series data**:
+6. **Rebuild time series data**:
     ```bash
     python code/time_series.py
     ```
 
-6. **Reproduce embeddings and alignment**:
+7. **Reproduce embeddings and alignment**:
     ```bash
     python code/embedding_alignment.py
     ```
 
-7. **Evaluate the aligned embeddings**:
+8. **Evaluate the aligned embeddings**:
     ```bash
     python code/embedding_eval.py
     ```
 
-8. **Visualize diachronic changes of word metrics**:
+9. **Visualize diachronic changes of word metrics**:
     ```bash
     python code/figure_plot.py
     ```

@@ -88,18 +88,18 @@ The CAPLD integrates data from several openly available sources. Each external r
 
 - Werneror/Poetry corpus (MIT License).
   - Source: https://github.com/Werneror/Poetry
-  - → deposited at Zenodo (DOI:  https://doi.org/10.5281/zenodo.17461105).
+  - deposited at Zenodo (DOI: https://doi.org/10.5281/zenodo.17461105).
 - Chinese strokes data: Chinese-characters-code-table (BSD 2-Clause License).
     - Source: https://github.com/yefeijiang/Chinese-characters-code-table/blob/main/全部汉字码表.TXT
-  - → deposited at Zenodo (DOI: https://doi.org/10.5281/zenodo.17461514).
+    - deposited at Zenodo (DOI: https://doi.org/10.5281/zenodo.17461514).
 - Pingshuiyun (平水韵) (PSY_Rhyme, Tone): https://zh.wikisource.org/wiki/平水韵 (public domain).
-- Guangyun (广韵) data (GY_Rhyme, GY_Tone, GY_ID): guangyun_new.tsv, Zenodo DOI: 10.5281/zenodo.10828130.
-- Unihan database (gloss): Unicode Consortium. https://www.unicode.org/ucd/latest/ucd
+- Guangyun (广韵) data (GY_Rhyme, GY_Tone, GY_ID): guangyun_new.tsv, Zenodo (DOI: https://doi.org/10.5281/zenodo.10828130).
+- Unihan database (gloss): Unicode Consortium. Unihan_Readings.txt, https://www.unicode.org/Public/UCD/latest/ucd/
 
 ## Usage
 
 1. **Download external datasets**:
-   Please download the Poetry corpus, strokes data, Pingshuiyun data, and Guangyun data from the links above, and place them in the `source/` folder.
+   Please download the Poetry corpus, strokes data (全部汉字码表.TXT), gloss data (Unihan_readings.txt), Pingshuiyun data, and Guangyun data(guangyun_new.tsv) from the links above, and place them in the `source/` folder.
 
 2. **Install dependencies**:
     ```bash
